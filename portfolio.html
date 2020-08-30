@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body class="page-portfolio">
-    <header class="header">
+    <header class="header border">
       <div class="container flexbox">
         <nav class="nav">
           <a href class="logo"> Web<span class="logo-header">Studio</span></a>
@@ -42,10 +42,10 @@
         </ul>
       </div>
     </header>
-    <main>
-      <div>
-        <!--блок фильтры-->
-        <ul class="buttons">
+    <main class="main-portfolio">
+      <!--блок фильтры-->
+      <div class="container">
+        <ul class="buttons flexbox button">
           <li><button type="button">Все</button></li>
           <li><button type="button">Веб-сайты</button></li>
           <li><button type="button">Приложения</button></li>
@@ -53,84 +53,86 @@
           <li><button type="button">Маркетинг</button></li>
         </ul>
       </div>
-      <div>
-        <ul>
-          <li>
-            <figure>
+
+      <!--портфолио-->
+      <div class="container">
+        <ul class="portfolio-list list">
+          <li class="portfolio-item">
+            <figure class="list bord-portfolio">
               <img src="./img/project1.png" alt="" width="370" height="294" />
-              <figcaption>
+              <figcaption class="caption">
                 <p class="portfolio-title">Технокряк</p>
                 <p class="portfolio-filter">Веб-сайт</p>
               </figcaption>
             </figure>
           </li>
-          <li>
-            <figure>
+          <li class="portfolio-item">
+            <figure class="list bord-portfolio">
               <img src="./img/project2.png" alt="" width="370" height="294" />
-              <figcaption>
+              <figcaption class="caption">
                 <p class="portfolio-title">Постер New Orlean vs Golden Star</p>
                 <p class="portfolio-filter">Дизайн</p>
               </figcaption>
             </figure>
           </li>
-          <li>
-            <figure>
+          <li class="portfolio-item">
+            <figure class="list bord-portfolio">
               <img src="./img/project3.png" alt="" width="370" height="294" />
-              <figcaption>
+              <figcaption class="caption">
                 <p class="portfolio-title">Ресторан Seafood</p>
                 <p class="portfolio-filter">Приложение</p>
               </figcaption>
             </figure>
           </li>
-          <li>
-            <figure>
+          <li class="portfolio-item">
+            <figure class="list bord-portfolio">
               <img src="./img/project4.png" alt="" width="370" height="294" />
-              <figcaption>
+              <figcaption class="caption">
                 <p class="portfolio-title">Проект Prime</p>
                 <p class="portfolio-filter">Маркетинг</p>
               </figcaption>
             </figure>
           </li>
-          <li>
-            <figure>
+          <li class="portfolio-item">
+            <figure class="list bord-portfolio">
               <img src="./img/project5.png" alt="" width="370" height="294" />
-              <figcaption>
+              <figcaption class="caption">
                 <p class="portfolio-title">Проект Boxes</p>
                 <p class="portfolio-filter">Приложение</p>
               </figcaption>
             </figure>
           </li>
-          <li>
-            <figure>
+          <li class="portfolio-item">
+            <figure class="list bord-portfolio">
               <img src="./img/project6.png" alt="" width="370" height="294" />
-              <figcaption>
+              <figcaption class="caption">
                 <p class="portfolio-title">Inspiration has no Borders</p>
                 <p class="portfolio-filter">Веб-сайт</p>
               </figcaption>
             </figure>
           </li>
-          <li>
-            <figure>
+          <li class="portfolio-item">
+            <figure class="list bord-portfolio">
               <img src="./img/project7.png" alt="" width="370" height="294" />
-              <figcaption>
+              <figcaption class="caption">
                 <p class="portfolio-title">Издание Limited Edition</p>
                 <p class="portfolio-filter">Дизайн</p>
               </figcaption>
             </figure>
           </li>
-          <li>
-            <figure>
+          <li class="portfolio-item">
+            <figure class="list bord-portfolio">
               <img src="./img/project8.png" alt="" width="370" height="294" />
-              <figcaption>
+              <figcaption class="caption">
                 <p class="portfolio-title">Проект LAB</p>
                 <p class="portfolio-filter">Маркетинг</p>
               </figcaption>
             </figure>
           </li>
-          <li>
-            <figure>
+          <li class="portfolio-item">
+            <figure class="list bord-portfolio">
               <img src="./img/project9.png" alt="" width="370" height="294" />
-              <figcaption>
+              <figcaption class="caption">
                 <p class="portfolio-title">Growing Business</p>
                 <p class="portfolio-filter">Приложение</p>
               </figcaption>
@@ -140,18 +142,20 @@
       </div>
     </main>
     <footer class="footer">
-      <div>
+      <div class="container">
         <a href class="logo"> Web<span class="logo-footer">Studio</span></a>
+        <address class="adress">г. Киев, пр-т Леси Украинки, 26</address>
+        <ul class="list">
+          <li class="footer-item">
+            <a href="mailto:info@devstudio.com" class="email">
+              info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="tel"> +38 096 111 11 11</a>
+          </li>
+        </ul>
       </div>
-      <address class="adress">г. Киев, пр-т Леси Украинки, 26</address>
-      <ul>
-        <li>
-          <a href="mailto:info@devstudio.com" class="email">
-            info@devstudio.com</a
-          >
-        </li>
-        <li><a href="tel:+380961111111" class="tel"> +38 096 111 11 11</a></li>
-      </ul>
     </footer>
   </body>
 </html>
