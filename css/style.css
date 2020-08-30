@@ -62,6 +62,8 @@ li {
   padding: 0;
 }
 
+/*-- header --*/
+
 .logo {
   color: var(--text-blue);
   font-family: Raleway, sans-serif;
@@ -126,9 +128,15 @@ li {
   color: var(--text-blue);
 }
 
+/*-- main, footer --*/
+
 .main,
 .footer {
   background-color: var(--main-footer);
+}
+
+.section {
+  padding-bottom: 94px;
 }
 
 .main-title {
@@ -157,20 +165,27 @@ li {
   text-decoration: none;
 }
 
+.description {
+  padding-top: 94px;
+}
+
 .description-list {
   color: var(--text-grey);
   line-height: 24px;
   font-weight: normal;
+  display: flex;
+  justify-content: space-between;
 }
+
 .description-item {
   line-height: 16px;
   font-weight: bold;
   color: var(--text-black);
 }
 
-/*
-.doing {
-}*/
+.description-item:not(:last-child) {
+  margin-right: 30px;
+}
 
 .doing-title {
   font-weight: bold;
@@ -178,6 +193,16 @@ li {
   line-height: 42px;
   text-align: center;
   color: var(--text-black);
+}
+
+.doing-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.doing-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .team {
@@ -194,10 +219,18 @@ li {
   line-height: 42px;
   text-align: center;
   color: var(--text-black);
+  padding-top: 94px;
 }
 
-/*.team-name {
-}*/
+.team-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.team-item:not(:last-child) {
+  margin-right: 30px;
+}
 
 .team-position {
   font-weight: normal;
